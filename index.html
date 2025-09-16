@@ -1,0 +1,3063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script type="module" src="src/main.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <style>
+    body{
+      background:#eeecec;
+      color:black;
+    }
+    .dark
+    {
+      background:black;
+      color:white;
+    }
+    #btn
+    {
+      cursor:pointer
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cont">
+    <!----------nav start-->
+    <nav class="fixed top-0 left-0 right-0 z-50 h-16 px-6 sm:px-6 font-bold border-b-1 border-gray-500 shadow-md flex justify-between items-center">
+      <h1 class="text-xl 2xl:px-32">Where in the world?</h1>
+      <div id="btn" class="flex items-center justify-center gap-2 border border-black py-2 px-2 rounded-3xl">
+        <span class="material-symbols-outlined">
+        light_mode
+        </span>
+        Light Mode
+      </div>
+      
+    </nav>
+    <!-----------nav end-->
+    <!-----------sec1 start-->
+    <section class="sec1 pt-14">
+      <div class="relative mx-12 mt-12 w-5/6">
+        <!--------------search box-->
+        <input  placeholder="Search for a country"
+          class="input searchbox  border h-10 w-full rounded pl-10 pr-3 md:w-[60%] lg:w-[45%] xl:w-[36%] 2xl:ml-24 2xl:w-[31%]" />
+        <!-----------------search icon-->
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 2xl:ml-24">
+          search
+        </span>
+      </div>
+    </section>
+    <!------------sec 1 end-->
+    <section class="sec2">
+      <div class="cont mx-12 mt-12 gap-6 grid sm:grid-cols-2 sm:gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl-grid-cols-4 2xl:mx-40">
+        <div class="boxes border border border-gray-800 w-full shadow-md rounded">
+          <div class="image-cont w-full sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/afgan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Afghanistan</h1>
+            <p class="mt-3"><b>Population</b>: 4,02,18,234</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Kabul</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/aland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Aland Island</h1>
+            <p class="mt-3"><b>Population</b>: 28,875</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Mariehamn</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/albania.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Albania</h1>
+            <p class="mt-3"><b>Population</b>: 28,37,743</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Tirana</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/algeria.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Algeria</h1>
+            <p class="mt-3"><b>Population</b>: 4,47,00,000</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Algiers</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/american-samoa.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">American Samoa</h1>
+            <p class="mt-3"><b>Population</b>: 55,197</p>
+            <p><b>Region</b>: Ocenaia</p>
+            <p><b>Capital</b>: Pago Pago</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/andorra.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Andora</h1>
+            <p class="mt-3"><b>Population</b>: 77,265</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Andorra La Vella</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/angola.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Angola</h1>
+            <p class="mt-3"><b>Population</b>: 3,28,66,268</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Luanda</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/anguilla.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Anguilla</h1>
+            <p class="mt-3"><b>Population</b>: 13,452</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: The Valley</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/antarctica.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Antarctica</h1>
+            <p class="mt-3"><b>Population</b>: 1,000</p>
+            <p><b>Region</b>: Polar</p>
+            <p><b>Capital</b>: </p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/antigua.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Antigua and Barbuda</h1>
+            <p class="mt-3"><b>Population</b>: 97,928</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Saint john's</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/argentina.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Argentina</h1>
+            <p class="mt-3"><b>Population</b>: 4,53,76,763</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Buenos Aires</p>
+          </div>
+
+        </div>
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/armenia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Armenia</h1>
+            <p class="mt-3"><b>Population</b>: 29,63,234</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Yerevan</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/aruba.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Aruba</h1>
+            <p class="mt-3"><b>Population</b>: 1,06,766</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Oranjestab</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/australia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Australia</h1>
+            <p class="mt-3"><b>Population</b>: 2,56,87,041</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Canberra</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/austria.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Austria</h1>
+            <p class="mt-3"><b>Population</b>: 89,17,205</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Vienna</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/azerbaijan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Azerbaijan</h1>
+            <p class="mt-3"><b>Population</b>: 1,01,10,116</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Baku</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bahamas.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bahmas</h1>
+            <p class="mt-3"><b>Population</b>: 3,93,248</p>
+            <p><b>Region</b>: mericas</p>
+            <p><b>Capital</b>: Nassau</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bahrain.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bahrain</h1>
+            <p class="mt-3"><b>Population</b>: 17,01,583</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Manama</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bangladesh.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bangladesh</h1>
+            <p class="mt-3"><b>Population</b>: 16,46,89,383</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Dhaka</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/barbadosh.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Barbadosh</h1>
+            <p class="mt-3"><b>Population</b>: 2,87,371</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Bridgetown</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/belarus.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Belarus</h1>
+            <p class="mt-3"><b>Population</b>: 93,98,861</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Minsk</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/belgium.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Belgium</h1>
+            <p class="mt-3"><b>Population</b>: 1,15,55,997</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Brussels</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/Belize.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Belize</h1>
+            <p class="mt-3"><b>Population</b>: 3,97,621</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Belmopan</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/benin.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Benin</h1>
+            <p class="mt-3"><b>Population</b>: 1,21,23,198</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Porto-Novo</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bermuda.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bermuda</h1>
+            <p class="mt-3"><b>Population</b>: 63,903</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Hamilton</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bhutan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bhutan</h1>
+            <p class="mt-3"><b>Population</b>: 7,71,612</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Thimphu</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bolivia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bolivia(Plurinational State of)</h1>
+            <p class="mt-3"><b>Population</b>: 1,16,73,029</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Sucre</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bonaire.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bonaire,Sint Eustatius and Saba</h1>
+            <p class="mt-3"><b>Population</b>: 17,408</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Kralendijk</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bosnia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bosnia and Herzegovina</h1>
+            <p class="mt-3"><b>Population</b>: 32,80,815</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Sarajevo</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/botswana.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Botswana</h1>
+            <p class="mt-3"><b>Population</b>: 23,51,625</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Gaborone</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bouvet.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bouvet Island</h1>
+            <p class="mt-3"><b>Population</b>: 0</p>
+            <p><b>Region</b>: Antarctic Ocean</p>
+            <p><b>Capital</b>:  </p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/brazil.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Brazil</h1>
+            <p class="mt-3"><b>Population</b>: 21,25,59,409</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Brasilia</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/british.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">British Indian Ocean Territory</h1>
+            <p class="mt-3"><b>Population</b>: 3,000</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Diego Garcia</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/united-state.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">United States Minor Outlying Islands</h1>
+            <p class="mt-3"><b>Population</b>: 300</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: </p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/virgin.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Virgin Islands</h1>
+            <p class="mt-3"><b>Population</b>: 30,237</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Road Town</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/virginus.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Virgin Islands(U.S)</h1>
+            <p class="mt-3"><b>Population</b>: 1,06,290</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Charlotte Amalie</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/brunei.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Brunei Darussalam</h1>
+            <p class="mt-3"><b>Population</b>: 4,37,483</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Bandar Seri Begawan</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/bulgaria.png" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Bulgaria</h1>
+            <p class="mt-3"><b>Population</b>: 69,27,288</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Sofia</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/burkina.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Burkina Faso</h1>
+            <p class="mt-3"><b>Population</b>: 2,09,03,278</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Ouagadougou</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/burundi.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Burundi</h1>
+            <p class="mt-3"><b>Population</b>: 1,18,90,781</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Gitega</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cambodia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cambodia</h1>
+            <p class="mt-3"><b>Population</b>: 1,67,18,971</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Phnom Penh</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cameroon.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cameroon</h1>
+            <p class="mt-3"><b>Population</b>: 2,65,45,864</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Yaounde</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/canada.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">canada</h1>
+            <p class="mt-3"><b>Population</b>: 3,80,05,238</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Ottawa</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cabo.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cabo Verde</h1>
+            <p class="mt-3"><b>Population</b>: 5,55,988</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Praia</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cayman.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cayman Islands</h1>
+            <p class="mt-3"><b>Population</b>: 65,720</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: George Town  </p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cen-african.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Central African Republic</h1>
+            <p class="mt-3"><b>Population</b>: 48,29,764</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Bangui</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/chad.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Chad</h1>
+            <p class="mt-3"><b>Population</b>: 1,64,25,859</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: N'Djamena</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/chile.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Chile</h1>
+            <p class="mt-3"><b>Population</b>: 1,91,16,209</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Santiago</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/china.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">China</h1>
+            <p class="mt-3"><b>Population</b>: 1,40,21,12,000</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Beijing</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/christ-island.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Christman Island</h1>
+            <p class="mt-3"><b>Population</b>: 2,072</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Flying Fish Cove</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cocos.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cocos (Keeling) Island</h1>
+            <p class="mt-3"><b>Population</b>: 550</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: West Island</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/colombia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">colombia</h1>
+            <p class="mt-3"><b>Population</b>: 5,08,82,884</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Bogota</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/comoros.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">comoros</h1>
+            <p class="mt-3"><b>Population</b>: 8,69,595</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Moroni</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/congo.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">congo</h1>
+            <p class="mt-3"><b>Population</b>: 55,18,092</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Brazzaville</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/congo-demo.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Congo (Democratic Republic of the )</h1>
+            <p class="mt-3"><b>Population</b>: 8,95,61,404</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Kinshasa</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cook.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cook islands</h1>
+            <p class="mt-3"><b>Population</b>: 18,100</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Avarua</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/costa.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Costa Rica</h1>
+            <p class="mt-3"><b>Population</b>: 50,94,114</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: San Jose</p>
+          </div>
+        </div>
+
+          <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/crotia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Croatia</h1>
+            <p class="mt-3"><b>Population</b>: 40,47,200</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Gazreb</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cuba.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cuba</h1>
+            <p class="mt-3"><b>Population</b>: 1,13,26,616</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Havana</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/curacao.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Curacao</h1>
+            <p class="mt-3"><b>Population</b>: 1,55,014</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Willemstad</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/cyprus.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Cyprus</h1>
+            <p class="mt-3"><b>Population</b>: 12,07,361</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Nicosia</p>
+          </div>
+        </div>
+      
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/czech.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Czech Republic</h1>
+            <p class="mt-3"><b>Population</b>: 1,06,98,896</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Prague</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/denmark.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Denmark</h1>
+            <p class="mt-3"><b>Population</b>: 58,31,404</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Copenhagen</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/djibouti.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Djibouti</h1>
+            <p class="mt-3"><b>Population</b>: 9,88,002</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Djibouti</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/dominica.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Dominica</h1>
+            <p class="mt-3"><b>Population</b>: 71,991</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Roseau</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/dominician.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Dominician Republic</h1>
+            <p class="mt-3"><b>Population</b>: 1,08,47,904</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Santo Domingo</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/ecuador.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Ecuador</h1>
+            <p class="mt-3"><b>Population</b>: 1,76,43,060</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Quito</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/egypt.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Egypt</h1>
+            <p class="mt-3"><b>Population</b>: 10,23,34,403</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Cairo</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/salvador.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">El Salvador</h1>
+            <p class="mt-3"><b>Population</b>: 64,86,201</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: San Salvador</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/equatorial.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Equatorial Guinea</h1>
+            <p class="mt-3"><b>Population</b>: 14,02,985</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Malabo</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/Eritrea.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Eritrea</h1>
+            <p class="mt-3"><b>Population</b>: 53,52,000</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Asmara</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/estonia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Estonia</h1>
+            <p class="mt-3"><b>Population</b>: 13,31,057</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Tallinn</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/ethiopia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Ethiopia</h1>
+            <p class="mt-3"><b>Population</b>: 11,49,63,583</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Adis Ababa</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/falkland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Falkland Islands(Malvinas)</h1>
+            <p class="mt-3"><b>Population</b>: 2,563</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Stanley</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/faroe.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Faroe Islands</h1>
+            <p class="mt-3"><b>Population</b>: 48,865</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Torshavn</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/fiji.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Fiji</h1>
+            <p class="mt-3"><b>Population</b>: 8,96,444</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Suva</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/finland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Finland</h1>
+            <p class="mt-3"><b>Population</b>: 55,30,719</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Helsinki</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/france.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">France</h1>
+            <p class="mt-3"><b>Population</b>: 6,73,91,582</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Paris</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/french.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">French Guiana</h1>
+            <p class="mt-3"><b>Population</b>: 2,54,541</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Cayenne</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/french-polynesia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">French Polynesia</h1>
+            <p class="mt-3"><b>Population</b>: 2,80,904</p>
+            <p><b>Region</b>: Ocenaia</p>
+            <p><b>Capital</b>: papeete</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/french-southern.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">French Southern Territories</h1>
+            <p class="mt-3"><b>Population</b>: 140</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Port-Aux-Francais</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/gabon.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Gabon</h1>
+            <p class="mt-3"><b>Population</b>: 22,25,728</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Libreville</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/gambia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Gambia</h1>
+            <p class="mt-3"><b>Population</b>: 24,16,664</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Banjul</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/georgia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Georgia</h1>
+            <p class="mt-3"><b>Population</b>: 37,14,000</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Tbilisi</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/germany.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Germany</h1>
+            <p class="mt-3"><b>Population</b>: 8,32,40,525</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Berlin</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/ghana.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Ghana</h1>
+            <p class="mt-3"><b>Population</b>: 3,10,72,945</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Accra</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/gibraltar.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Gibraltar</h1>
+            <p class="mt-3"><b>Population</b>: 33,691</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Gibraltar</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/greece.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Greece</h1>
+            <p class="mt-3"><b>Population</b>: 1,07,15,549</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Athens</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/greenland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Greenland</h1>
+            <p class="mt-3"><b>Population</b>: 55,367</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Nuuk</p>
+          </div>
+        </div>
+
+       <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/grenada.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Grenada</h1>
+            <p class="mt-3"><b>Population</b>: 1,12,519</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: St. George's</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/guad.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Guadeloupe</h1>
+            <p class="mt-3"><b>Population</b>: 4,00,132</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Basse-Terre</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/guam.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Guam</h1>
+            <p class="mt-3"><b>Population</b>: 1,68,783</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Hagatna</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/guatemala.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Guatemala</h1>
+            <p class="mt-3"><b>Population</b>: 1,68,58,333 </p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Guatemala City</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/guernsey.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Guernsey</h1>
+            <p class="mt-3"><b>Population</b>: 62,999</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: St. Peter Port</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/guinea.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Guinea</h1>
+            <p class="mt-3"><b>Population</b>: 1,31,32,792</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Conakry</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/guinea-bisau.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Guinea-Bissau</h1>
+            <p class="mt-3"><b>Population</b>: 19,67,998</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Bissau</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/guyana.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Guyana</h1>
+            <p class="mt-3"><b>Population</b>: 7,86,559</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Georgetown</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/haiti.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Haiti</h1>
+            <p class="mt-3"><b>Population</b>: 1,14,02,533</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Port-au-Prince</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/heard-island.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Heard Island and McDonald Island</h1>
+            <p class="mt-3"><b>Population</b>: 0</p>
+            <p><b>Region</b>: Antarctic</p>
+            <p><b>Capital</b>: </p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/vatican.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Vatican City</h1>
+            <p class="mt-3"><b>Population</b>: 451</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Vatican City </p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/honduras.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Honduras</h1>
+            <p class="mt-3"><b>Population</b>: 99,04,608</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Tegucigalpa</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/hungary.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Hungary</h1>
+            <p class="mt-3"><b>Population</b>: 97,49,763</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Budapest</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/hong-kong.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Hong kong</h1>
+            <p class="mt-3"><b>Population</b>: </p>74,81,800
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: City of Victoria</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/iceland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Iceland</h1>
+            <p class="mt-3"><b>Population</b>: 3,66,425</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Reykjavik</p>
+          </div>
+        </div> 
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/india.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">India</h1>
+            <p class="mt-3"><b>Population</b>: 1,38,00,04,385</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: New Delhi</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/indonesia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Indonesia</h1>
+            <p class="mt-3"><b>Population</b>: 27,35,23,621</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Jakarta</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/ivory.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Ivory Coast</h1>
+            <p class="mt-3"><b>Population</b>: 2,63,78,275</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Yamoussoukro</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/iran.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Iran (Islamic republic of)</h1>
+            <p class="mt-3"><b>Population</b>: 8,39,92,953</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Tehran</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/iraq.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Iraq</h1>
+            <p class="mt-3"><b>Population</b>: 4,02,22,503</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Baghdad</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/ireland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Ireland</h1>
+            <p class="mt-3"><b>Population</b>: 49,94,724</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Dublin</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/isle.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Isle Of man</h1>
+            <p class="mt-3"><b>Population</b>: 85,032</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Douglas</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/israel.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Israel</h1>
+            <p class="mt-3"><b>Population</b>: 92,16,900</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: jerusalem</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/italy.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Italy</h1>
+            <p class="mt-3"><b>Population</b>: 5,95,54,023</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Rome</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/jamaica.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Jamaica</h1>
+            <p class="mt-3"><b>Population</b>: </p>29,61,161
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Kingston</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/japan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">japan</h1>
+            <p class="mt-3"><b>Population</b>: 12,58,36,021</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Tokyo</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/jersey.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">jersey</h1>
+            <p class="mt-3"><b>Population</b>: 1,00,800,</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Saint Helier</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/jordan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Jordan</h1>
+            <p class="mt-3"><b>Population</b>: 1,02,03,140</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Amman</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/kazakhstan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Kazakhstan</h1>
+            <p class="mt-3"><b>Population</b>: 1,87,54,440</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Nur-Sultan</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/kenya.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Kenya</h1>
+            <p class="mt-3"><b>Population</b>: 5,37,71,300</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Nairobi</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/kiribati.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Kiribati</h1>
+            <p class="mt-3"><b>Population</b>: 1,19,446</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: South Tarawa</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/kuwait.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Kuwait</h1>
+            <p class="mt-3"><b>Population</b>: 42,70,563</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Kuwait City</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/kyrgyzstan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Kyrgyzstan</h1>
+            <p class="mt-3"><b>Population</b>: 65,91,600</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Bishkek</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/lao.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Lao People's Democratic Republic</h1>
+            <p class="mt-3"><b>Population</b>: 72,75,566</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Vientiane</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/latvia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Latvia</h1>
+            <p class="mt-3"><b>Population</b>: 19,01,548</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Riga</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/lebanon.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Lebanon</h1>
+            <p class="mt-3"><b>Population</b>: 68,25,442</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Beirut</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/lesotho.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Lesotho</h1>
+            <p class="mt-3"><b>Population</b>: 21,42,252</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Maseru</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/liberia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Liberia</h1>
+            <p class="mt-3"><b>Population</b>: 50,57,677</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Monrovia</p>
+          </div>
+        </div>
+
+         <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/libya.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Libya</h1>
+            <p class="mt-3"><b>Population</b>: 68,71,287</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Tripoli</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/liech.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Liechtenstein</h1>
+            <p class="mt-3"><b>Population</b>: 38,137</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Vaduz</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/lithuania.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Lithuania</h1>
+            <p class="mt-3"><b>Population</b>: 27,94,700</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Vilnius</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/luxembourg.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Luxembourg</h1>
+            <p class="mt-3"><b>Population</b>: 6,32,275</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Luxembourg</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/macao.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Macao</h1>
+            <p class="mt-3"><b>Population</b>: 6,49,342</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: </p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/north-macedonia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">North Macedonia</h1>
+            <p class="mt-3"><b>Population</b>: 20,83,380</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Skopeje</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/madagascar.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Madagascar</h1>
+            <p class="mt-3"><b>Population</b>: 2,76,91,019</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Antananarivo</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/malawi.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Malawi</h1>
+            <p class="mt-3"><b>Population</b>: 1,91,29,955</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Lilongwe </p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/malaysia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Malaysia</h1>
+            <p class="mt-3"><b>Population</b>: 3,23,65,998</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Kuala lumpur</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/maldives.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Maldives</h1>
+            <p class="mt-3"><b>Population</b>: 5,40,542</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Male</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mali.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Mali</h1>
+            <p class="mt-3"><b>Population</b>: 20,02,50,834</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Bamako</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/malta.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Malta</h1>
+            <p class="mt-3"><b>Population</b>: 5,25,285</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Valletta</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/marshall.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Marshall Islands</h1>
+            <p class="mt-3"><b>Population</b>: 59,194</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Majuro</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/martinique.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Martinique</h1>
+            <p class="mt-3"><b>Population</b>: 3,78,243</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Fort-de-France</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mauritania.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Mauritania</h1>
+            <p class="mt-3"><b>Population</b>: 46,49,660</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Nouakchott</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mauritius.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Mauritius</h1>
+            <p class="mt-3"><b>Population</b>: 12,65,740</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Port Louis</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mayotte.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Mayotte</h1>
+            <p class="mt-3"><b>Population</b>: 2,26,915</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Mamoudzou</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mexico.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Mexico</h1>
+            <p class="mt-3"><b>Population</b>: 12,89,32,753</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Mexico City</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/micronesia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Micronesia (Federated States of)</h1>
+            <p class="mt-3"><b>Population</b>: 1,15,021</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Palikir</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/moldova.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Moldova (Republic Of)</h1>
+            <p class="mt-3"><b>Population</b>: 26,17,820</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Chisinau</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/monaco.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Monaco</h1>
+            <p class="mt-3"><b>Population</b>: 39,244</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Monaco</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mongolia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Mongolia</h1>
+            <p class="mt-3"><b>Population</b>: 32,78,292</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Ulan Bator</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/montenegro.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Montenegro</h1>
+            <p class="mt-3"><b>Population</b>: 6,21,718</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Podgorica</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/montserrat.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Montserrat</h1>
+            <p class="mt-3"><b>Population</b>: 4,922</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Plymouth</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/morocco.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Morocco</h1>
+            <p class="mt-3"><b>Population</b>: 3,69,10,558</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Rabat</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mozam.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Mozambique</h1>
+            <p class="mt-3"><b>Population</b>: 3,12,55,435</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Maputo</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/myanmar.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Myanmar</h1>
+            <p class="mt-3"><b>Population</b>: 5,44,09,794</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Naypyidaw</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/namibia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Namibia</h1>
+            <p class="mt-3"><b>Population</b>: 25,40,916</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Windhoek</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/nauru.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Nauru</h1>
+            <p class="mt-3"><b>Population</b>: 10,834</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Yaren</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/nepal.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Nepal</h1>
+            <p class="mt-3"><b>Population</b>: 2,91,36,808</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Kathmandu</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/netherlands.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Netherlands</h1>
+            <p class="mt-3"><b>Population</b>: 1,74,41,139</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Amsterdam</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/new-caledonia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">New Caledonia</h1>
+            <p class="mt-3"><b>Population</b>: 2,71,960</p>
+            <p><b>Region</b>: Ocenaia</p>
+            <p><b>Capital</b>: Noumea</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/new-zealand.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">New Zealand</h1>
+            <p class="mt-3"><b>Population</b>: 50,84,300</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Wellington</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/nicarugua.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Nicarugua</h1>
+            <p class="mt-3"><b>Population</b>: 66,24,554</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Managua</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/niger.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Niger</h1>
+            <p class="mt-3"><b>Population</b>: 2,42,06,636</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Niamey</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/nigeria.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Nigeria</h1>
+            <p class="mt-3"><b>Population</b>: 20,61,39,587</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Abuja</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/niue.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">niue</h1>
+            <p class="mt-3"><b>Population</b>: 1,470</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Alofi</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/norfolk.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Norfolk Island</h1>
+            <p class="mt-3"><b>Population</b>: 2,302</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Kingston</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/korea.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Korea (Democratic People's Republic of)</h1>
+            <p class="mt-3"><b>Population</b>: 2,57,78,815</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Pyongyang</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/mariana.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Northern Mariana Islands</h1>
+            <p class="mt-3"><b>Population</b>: 57,557</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Saipan</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/norway.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Norway</h1>
+            <p class="mt-3"><b>Population</b>: 53,79,475</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Oslo</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/Oman.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Oman</h1>
+            <p class="mt-3"><b>Population</b>: 51,06,622</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Muscat</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/pakistan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Pakistan</h1>
+            <p class="mt-3"><b>Population</b>: 22,08,92,331</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Islamabad</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/palau.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Palau</h1>
+            <p class="mt-3"><b>Population</b>: 18,092</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Ngerulmud</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/palestine.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Palestine State of</h1>
+            <p class="mt-3"><b>Population</b>: 48,03,269</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Ramallah</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/panama.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Panama</h1>
+            <p class="mt-3"><b>Population</b>: 43,14,768</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Panama City</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/papua.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Papua New Guinea</h1>
+            <p class="mt-3"><b>Population</b>: 89,47,027</p>
+            <p><b>Region</b>: Ocenaia</p>
+            <p><b>Capital</b>: Port Moresby</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/paraguay.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Paraguay</h1>
+            <p class="mt-3"><b>Population</b>: 71,32,530</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Asuncion</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/peru.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Peru</h1>
+            <p class="mt-3"><b>Population</b>: 3,29,71,846</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Lima</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/philippines.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">philippines</h1>
+            <p class="mt-3"><b>Population</b>: 10,95,81,085</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Manila</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/pitcairn.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Pitcairn</h1>
+            <p class="mt-3"><b>Population</b>: 56</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Adamstown</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/poland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Poland</h1>
+            <p class="mt-3"><b>Population</b>: 3,79,50,802</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Warsaw</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/portugal.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Portugal</h1>
+            <p class="mt-3"><b>Population</b>: 1,03,05,564</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Lisbon</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/puerto-rico.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Puerto Rico</h1>
+            <p class="mt-3"><b>Population</b>: 31,94,034</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: San Juan</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/qatar.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Qatar</h1>
+            <p class="mt-3"><b>Population</b>: 28,81,060</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Doha</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/kosovo.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Republic of Kosovo</h1>
+            <p class="mt-3"><b>Population</b>: 17,75,378</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Pristina</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/reunion.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Reunion</h1>
+            <p class="mt-3"><b>Population</b>: 8,40,974</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Saint Denis</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/romania.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Romania</h1>
+            <p class="mt-3"><b>Population</b>: 1,92,86,123</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Bucharest</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/russian.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Russian Federation</h1>
+            <p class="mt-3"><b>Population</b>: 1</p>4,41,04,080
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Moscow</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/rwanda.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Rwanda</h1>
+            <p class="mt-3"><b>Population</b>: 1,29,52,209</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Kigali</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/saint.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saint Barthelemy</h1>
+            <p class="mt-3"><b>Population</b>: 9,417</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Gustavia</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full  rounded" src="assets/saint-helena.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saint Helena,Ascension and Tristan da Cunha</h1>
+            <p class="mt-3"><b>Population</b>: 4,255</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Jamestown</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/saint-kitts.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saint Kitts and Nevis</h1>
+            <p class="mt-3"><b>Population</b>: 53,192</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Basseterre</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/saint-lucia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saint Lucia</h1>
+            <p class="mt-3"><b>Population</b>: 1,83,629</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Castries</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/saint-martin.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saint Martin (French Part)</h1>
+            <p class="mt-3"><b>Population</b>: 38,659</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Marigot</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/saint-pierre.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saint Pierre and Miquelon</h1>
+            <p class="mt-3"><b>Population</b>: 6,069</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Saint-pierre</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/saint-vincent.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saint Vincent and the Grenadines</h1>
+            <p class="mt-3"><b>Population</b>: 1,10,947</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Kingstown</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/samoa.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Samoa</h1>
+            <p class="mt-3"><b>Population</b>: 1,98,410</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Apia</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/san-marino.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">San Marino</h1>
+            <p class="mt-3"><b>Population</b>: 33,938</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: City of San Marino</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/sao-tome.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Sao Tome and principe</h1>
+            <p class="mt-3"><b>Population</b>: 2,19,161</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Sao Tome</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/saudi-arabia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Saudi Arabia</h1>
+            <p class="mt-3"><b>Population</b>: 3,48,13,867</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Riyadh</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/senegal.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Senegal</h1>
+            <p class="mt-3"><b>Population</b>: 1,67,43,930</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Dakar</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/serbia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Serbia</h1>
+            <p class="mt-3"><b>Population</b>: 69,08,224</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Belgrade </p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/sey.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Seychelles</h1>
+            <p class="mt-3"><b>Population</b>: 98,462</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Victoria</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/sierra.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Sierra Leone</h1>
+            <p class="mt-3"><b>Population</b>: 79,76,985</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Freetown</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/singapore.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Singapore</h1>
+            <p class="mt-3"><b>Population</b>: 56,85,807</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Singapore</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/sint-maarten.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Sint Maarten (Dutch Part)</h1>
+            <p class="mt-3"><b>Population</b>: 40,812</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Philipsburg</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/slovakia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Slovakia</h1>
+            <p class="mt-3"><b>Population</b>: 54,58,827</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Bratislava</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/slovenia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Slovenia</h1>
+            <p class="mt-3"><b>Population</b>: 21,00,126</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Ljubljana</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/solomon.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Solomon Islands</h1>
+            <p class="mt-3"><b>Population</b>: 6,86,878</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Honiara</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/somalia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">somalia</h1>
+            <p class="mt-3"><b>Population</b>: 1,58,93,219</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Mogadishu</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/southafrica.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">South Africa</h1>
+            <p class="mt-3"><b>Population</b>: 5,93,08,690</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Pretoria</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/south-georgia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">South Georgia and the South Sandwich Islands</h1>
+            <p class="mt-3"><b>Population</b>: 30</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: King Edward Point</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/korea-republic.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Korea (Republic of)</h1>
+            <p class="mt-3"><b>Population</b>: 5,17,80,579</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Seoul</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/spain.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Spain</h1>
+            <p class="mt-3"><b>Population</b>: 4,73,51,567</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Madrid</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/srilanka.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Sri Lanka</h1>
+            <p class="mt-3"><b>Population</b>: 2,19,19,000</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Sri jayawardenepura Kotte</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/sudan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Sudan</h1>
+            <p class="mt-3"><b>Population</b>: 4,38,49,269</p>
+            <p><b>Region</b>: Afirca</p>
+            <p><b>Capital</b>: Khartoum</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/south-sudan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">South Sudan</h1>
+            <p class="mt-3"><b>Population</b>: 1,11,93,729</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Juba</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/suriname.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">suriname</h1>
+            <p class="mt-3"><b>Population</b>: 5,86,634</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Paramaribo</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/svalbard.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Svalbard and jan Mayen</h1>
+            <p class="mt-3"><b>Population</b>: 2,562</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Longyearbyen</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/swaizland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Swaziland</h1>
+            <p class="mt-3"><b>Population</b>: 11,60,164</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Mbabane</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/sweden.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Sweden</h1>
+            <p class="mt-3"><b>Population</b>: 1,03,53,442</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Stockholm</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/switzerland.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Switzerland</h1>
+            <p class="mt-3"><b>Population</b>: 86,36,896</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Bern</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/syrian.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Syrian Arab Republic</h1>
+            <p class="mt-3"><b>Population</b>: 1,75,00,657</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Damascus</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/taiwan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Taiwan</h1>
+            <p class="mt-3"><b>Population</b>: 2,35,03,349</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Taipei</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/tajikistan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">tajikistan</h1>
+            <p class="mt-3"><b>Population</b>: 95,37,642</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Dushanbe</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/tanzania.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Tanzania,United Republic of </h1>
+            <p class="mt-3"><b>Population</b>: 5,97,34,213</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Dodoma</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/thailand.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Thailand</h1>
+            <p class="mt-3"><b>Population</b>: 6,97,99,978</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Bangkok</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/timor.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Timor-Leste</h1>
+            <p class="mt-3"><b>Population</b>: 13,18,442</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Dili</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/togo.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Togo</h1>
+            <p class="mt-3"><b>Population</b>: 82,78,737</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Lome</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/tokelau.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Tokelau</h1>
+            <p class="mt-3"><b>Population</b>: 1,411</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Fakaofo</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/tonga.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Tonga</h1>
+            <p class="mt-3"><b>Population</b>: 1,05,697</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Nuki'alofa</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/trinidad.png" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Trinidad and Tobago</h1>
+            <p class="mt-3"><b>Population</b>: 13,99,491</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Port of Spain</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/tunisia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Tunisia</h1>
+            <p class="mt-3"><b>Population</b>: 1,18,18,618</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Tunis</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/turkey.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Turkey</h1>
+            <p class="mt-3"><b>Population</b>: 8,43,39,067</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Ankara</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/turkmenistan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Turkmenistan</h1>
+            <p class="mt-3"><b>Population</b>: 60,31,187</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Ashgabat</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/turks.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Turks and Caicos Islands</h1>
+            <p class="mt-3"><b>Population</b>: 38,718</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Cockburn Town</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/tuvalu.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Tuvalu</h1>
+            <p class="mt-3"><b>Population</b>: 11,792</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Funafuti</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/uganda.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Uganda</h1>
+            <p class="mt-3"><b>Population</b>: 4,57,41,000</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Kampala</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/ukraine.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Ukraine</h1>
+            <p class="mt-3"><b>Population</b>: 4,41,34,693</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: Kyiv</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/united-arab.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">United Arab Emirates</h1>
+            <p class="mt-3"><b>Population</b>: 98,90,400</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Abu Dhabi</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/united-kingdom.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">United Kingdom of Great Britain and Northern Ireland</h1>
+            <p class="mt-3"><b>Population</b>: 6,72,15,293</p>
+            <p><b>Region</b>: Europe</p>
+            <p><b>Capital</b>: London</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/United-states-america.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">United State Of America</h1>
+            <p class="mt-3"><b>Population</b>: 32,94,84,123</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Washington,D.c</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/uru.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Uruguay</h1>
+            <p class="mt-3"><b>Population</b>: 34,73,727</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Montevideo</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/uzbekistan.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Uzbekistan</h1>
+            <p class="mt-3"><b>Population</b>: 3,42,32,050</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Tashkent</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/vanuatu.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">vanuatu</h1>
+            <p class="mt-3"><b>Population</b>: 3,07,150</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Port Villa</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/venezuela.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Venezuela (Bolivarian Republic of)</h1>
+            <p class="mt-3"><b>Population</b>: 2,84,35,943</p>
+            <p><b>Region</b>: Americas</p>
+            <p><b>Capital</b>: Caracas</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/vietnam.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Vietnam</h1>
+            <p class="mt-3"><b>Population</b>: 9,73,38,583</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Hanoi</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/Wallis.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Wallis and Futuna</h1>
+            <p class="mt-3"><b>Population</b>: 11,750</p>
+            <p><b>Region</b>: Oceania</p>
+            <p><b>Capital</b>: Mata-Utu</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/western.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Western Sahara</h1>
+            <p class="mt-3"><b>Population</b>: 5,10,713</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: El Aaiun</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/yemen.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Yemen</h1>
+            <p class="mt-3"><b>Population</b>: 2,98,25,968</p>
+            <p><b>Region</b>: Asia</p>
+            <p><b>Capital</b>: Sana'a</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/zambia.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Zambia</h1>
+            <p class="mt-3"><b>Population</b>: 1.83,83,956</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Lusaka</p>
+          </div>
+        </div>
+
+        <div class="boxes border border border-gray-800 w-full  shadow-md rounded">
+          <div class="image-cont sm:h-40 md:h-40 lg:h-40">
+            <img class="w-full h-full rounded" src="assets/zimbabwe.jpg" alt="afgan" />
+          </div>
+          <div class="text-cont px-4 py-2">
+            <h1 class="mt-4 text-xl">Zimbabwe</h1>
+            <p class="mt-3"><b>Population</b>: 1,48,62,927</p>
+            <p><b>Region</b>: Africa</p>
+            <p><b>Capital</b>: Harare</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
